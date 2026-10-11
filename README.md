@@ -139,5 +139,5 @@ Pupil model: Coutinho, J. (2024). Systems Neuroscience Models of Human Oculomoto
 
 ## Contact
 
-* Jaspreet Dodd — jaspreet_dodd @ sfu.ca
+* Jaspreet Dodd - jaspreet_dodd @ sfu.ca
 * Gunnar Blohm - gunnar.blohm @ queensu.ca
