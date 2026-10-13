@@ -74,7 +74,8 @@ Frames with missing gaze (blinks, off-screen) are stored as NaN.
 3. **Fit.** LASSO regression (`fitrlinear`, SpaRSA solver) with λ chosen from `logspace(-5, 5, 30)` by 5-fold cross-validation (minimum MSE). The final model is refit at that λ.
 4. **Output.** R² (computed on the full data at the chosen λ) and a 49 × 62 weight map per subject.
 
-Pupil-model timing parameters used in these scripts: `dt = 0.0167 s`, parasympathetic delay `taup = 0.15 s`, sympathetic delay `taus = 0.64 s`. These were tuned per participant to account for physiological differences between participants. Parameter-tuning scripts are not included in this repository. The code here uses the fixed parameter values written in the scripts and is intended as a base for others to extend.
+Pupil-model timing parameters used in these scripts: `dt = 0.0167 s`, parasympathetic delay `taup = 0.15 s`, sympathetic delay `taus = 0.64 s`. 
+Certain parameters were tuned per participant to account for physiological differences between participants. Parameter-tuning scripts are not included in this repository. The code here uses the fixed parameter values written in the scripts and is intended as a base for others to extend.
 
 ### Figures and statistics from `generate_final_figures.m`
 
